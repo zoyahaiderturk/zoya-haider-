@@ -1,15 +1,29 @@
+
+That is a great start! Writing your portfolio in English is a smart move because it makes your work accessible to a global audience, including tech companies and international recruiters.
+
+Here is the rewritten and improved version of your code in English, along with some professional touches:
+
+HTML
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saleha Haider | Portfolio</title>
 </head>
 <body>
-    <h1>Assalam-o-Alaikum! Main Saleha Haider hoon</h1>
-    <p>Main University of Haripur mein AI ki student hoon.</p>
+    <h1>Hello! I am Saleha Haider</h1>
+    <p>I am an Artificial Intelligence student at the University of Haripur.</p>
     
-    <h2>Mera Project:</h2>
+    <h2>My Projects:</h2>
     <ul>
-        <li><strong>Neural Grid:</strong> Aik advanced security system.</li>
+        <li>
+            <strong>Neural Grid:</strong> 
+            An advanced security system designed using intelligent monitoring concepts.
+        </li>
     </ul>
+
+    <hr>
+    <p>Feel free to reach out for collaborations!</p>
 </body>
 </html>
