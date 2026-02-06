@@ -1,1 +1,125 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saleha Haider | AI Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* === PROFESSIONAL DESIGN SETTINGS (CSS) === */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        
+        body { 
+            background-color: #0b0e14; /* Dark Background */
+            color: #ffffff; 
+            overflow-x: hidden;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 8%; background: rgba(11, 14, 20, 0.95);
+            border-bottom: 1px solid #1f293a; position: sticky; top: 0; z-index: 1000;
+        }
+        .logo { font-size: 26px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 1px; }
+        .logo span { color: #00f2ff; } /* Neon Blue Color */
+        
+        .nav-links { list-style: none; display: flex; gap: 30px; }
+        .nav-links a { text-decoration: none; color: #a0aab5; font-weight: 500; transition: 0.3s; }
+        .nav-links a:hover { color: #00f2ff; }
+
+        /* Hero Section (Banner with Image) */
+        .hero {
+            height: 90vh;
+            display: flex; align-items: center; justify-content: center; text-align: center;
+            /* Background Image from Internet */
+            background: linear-gradient(rgba(11,14,20,0.8), rgba(11,14,20,0.8)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover; background-position: center;
+        }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 20px; line-height: 1.2; }
+        .hero h1 span { color: #00f2ff; }
+        .subtitle { font-size: 1.2rem; color: #cfd8dc; margin-bottom: 30px; max-width: 700px; }
+        
+        .btn {
+            padding: 12px 35px; background: #00f2ff; color: #0b0e14;
+            text-decoration: none; font-weight: 700; border-radius: 50px;
+            transition: 0.3s; display: inline-block;
+        }
+        .btn:hover { background: #fff; box-shadow: 0 0 15px #00f2ff; }
+
+        /* About & Skills Section */
+        .section { padding: 80px 8%; }
+        .section-title { font-size: 2.5rem; text-align: center; margin-bottom: 50px; }
+        .section-title span { border-bottom: 3px solid #00f2ff; padding-bottom: 10px; }
+
+        .about-container { display: flex; align-items: center; gap: 50px; flex-wrap: wrap; justify-content: center; }
+        .about-text { max-width: 600px; }
+        .about-text h3 { color: #00f2ff; margin-bottom: 15px; font-size: 1.8rem; }
+        
+        /* Cards Design (Projects) */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card {
+            background: #151a25; padding: 30px; border-radius: 15px;
+            border: 1px solid #232a3b; transition: 0.3s;
+        }
+        .card:hover { transform: translateY(-10px); border-color: #00f2ff; }
+        .card-img { width: 100%; height: 180px; object-fit: cover; border-radius: 10px; margin-bottom: 20px; }
+        .card h3 { margin-bottom: 10px; color: #fff; }
+        .card p { color: #a0aab5; font-size: 0.9rem; line-height: 1.6; }
+
+        /* Footer */
+        footer { text-align: center; padding: 20px; background: #080a0f; color: #555; font-size: 0.9rem; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Saleha<span>Haider</span></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div>
+            <h1>Future of AI & <br><span>Creative Design</span></h1>
+            <p class="subtitle">Hi, I am Saleha Haider. An AI Student at University of Haripur and a Creative Web Designer specializing in Neural Networks & Branding.</p>
+            <a href="#" class="btn">View My Portfolio</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title"><span>My Featured Projects</span></h2>
+        <div class="grid">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=500&q=60" class="card-img" alt="Security">
+                <h3>Neural Grid Security</h3>
+                <p>An advanced AI-based security system concept designed for modern protection using neural networks.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=500&q=60" class="card-img" alt="Design">
+                <h3>Opsys Pro Branding</h3>
+                <p>Professional logo design, taglines, and brand identity created for the Opsys Pro company.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1535378437327-b7149b379bab?auto=format&fit=crop&w=500&q=60" class="card-img" alt="AI Robot">
+                <h3>AI Python Assistant</h3>
+                <p>A smart assistant built with Python to help with daily tasks, reminders, and automation.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Saleha Haider. Designed with Intelligence.</p>
+    </footer>
+
+</body>
+</html>
